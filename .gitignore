@@ -1,0 +1,31 @@
+# Игнорируем артефакты сборки SBT
+target/
+project/target/
+project/project/
+
+# Конфигурации IDE и текстовых редакторов
+.idea/
+.vscode/
+.bsp/
+.metals/
+
+# Кэш SBT
+.cache/
+project/.history/
+project/boot/
+project/.sbt/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Артефакты тестирования
+coverage/
+test-reports/
